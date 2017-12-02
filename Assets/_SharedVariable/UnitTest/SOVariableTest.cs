@@ -18,6 +18,8 @@ public class SOVariableTest : BaseTest {
 	{
 		score.value = 0;
 		mCooldown = 2;
+
+		doSpawning = true;
 	}
 
 	void Update() {

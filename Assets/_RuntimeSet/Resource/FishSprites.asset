@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 535ae60c24f5f4934ad22e2d56d8bff7, type: 3}
+  m_Name: FishSprites
+  m_EditorClassIdentifier: 
+  spriteList:
+  - {fileID: 21300000, guid: 7da9bc0aea9a64c4480d65735f059f56, type: 3}
+  - {fileID: 21300000, guid: bebc868b0dc354044aa34cebe5f4470e, type: 3}
+  - {fileID: 21300000, guid: e2d18848585ac4d0bb4c988097f31983, type: 3}
+  - {fileID: 21300000, guid: 18805a5b8f5724bb1bc07ec5399dc1f7, type: 3}
+  - {fileID: 21300000, guid: 3b538a7ced7764f16ac22aaf5b09723c, type: 3}
+  - {fileID: 21300000, guid: 9fc704570d32c46b1991710a8f26eef4, type: 3}

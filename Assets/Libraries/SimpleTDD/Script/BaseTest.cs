@@ -20,7 +20,8 @@ public abstract class BaseTest : MonoBehaviour {
 	private TDDTest mMainTestLogic;
 
 	void Awake() {
-			mMainTestLogic = gameObject.GetComponent<TDDTest>();	
+		mMainTestLogic = FindObjectOfType<TDDTest>();	
+		//Debug.Log ("BaseTest.Awake: " + (mMainTestLogic != null));
 	}
 
 
@@ -115,7 +116,9 @@ public abstract class BaseTest : MonoBehaviour {
 		}
 
 		public void UpdateLog(string message) {
+			Debug.Log ("UpdateLog: " + mMainTestLogic);
 			if(mMainTestLogic != null) {
+				Debug.Log ("UpdateLog: message=" + message);
 				mMainTestLogic.UpdateLog(message);
 			}
 		}

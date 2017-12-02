@@ -48,15 +48,15 @@ public class GameTarget : MonoBehaviour {
 
 		mTimeElapse += Time.deltaTime;
 		if(mTimeElapse > appearTime) {
-			GetComponent<AudioSource>().clip = missSound;
-			GetComponent<AudioSource>().Play();
+			//GetComponent<AudioSource>().clip = missSound;
+			//GetComponent<AudioSource>().Play();
 			Destroy(this.gameObject);
 		}
 	}
 
 	void OnHit(Vector3 position) {
-		GetComponent<AudioSource>().clip = hitSound;
-		GetComponent<AudioSource>().Play();
+		//GetComponent<AudioSource>().clip = hitSound;
+		//GetComponent<AudioSource>().Play();
 		scoreReference.value += hitScore;
 		Destroy(this.gameObject);
 	}
